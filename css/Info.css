@@ -1,0 +1,90 @@
+/* SKILLS PROG */
+#skillsProg {
+  background: #f2f2f2;
+}
+
+#skillsProg h5 {
+  color: #000351;
+}
+
+#skillsProg .heading h2 {
+  color: #000351;
+  text-transform: uppercase;
+}
+
+#skillsProg .progress {
+  height: 100%;
+  margin: 30px 20px;
+  backface-visibility: #9e9e9e;
+}
+
+#skillsProg .progress-bar {
+  background: #82d9d9;
+}
+
+/* SKILLS GAPH */
+#skillsGraph {
+  background: #82d9d9;
+}
+
+#skillsGraph h5 {
+  color: #000351;
+}
+
+#skillsGraph .heading h2 {
+  color: #000351;
+  text-transform: uppercase;
+}
+
+#skillsGraph .progress {
+  height: 100%;
+  margin: 30px 20px;
+  backface-visibility: #9e9e9e;
+}
+
+#skillsGraph .progress-bar {
+  background: #f2f2f2;
+}
+
+/* TIMELINE */
+
+.heading h2 {
+  color: #000351;
+  text-align: center;
+}
+
+.timeline:before {
+  background-color: #000351;
+}
+
+.timeline li .timeline-badge {
+  color: #82d9d9;
+}
+
+#xpPro .timeline-panel-container {
+  width: 50%;
+  float: left;
+}
+
+#xpPro .timeline-panel-container-inverted {
+  width: 50%;
+  float: right;
+}
+
+.timeline-panel {
+  background: #82d9d9;
+}
+
+#xpPro .timeline-panel-container-inverted .timeline-panel {
+  float: left;
+  margin-left: 40px;
+}
+
+.timeline-panel:after {
+  border-left: 14px solid #82d9d9;
+  border-right: 0 solid #82d9d9;
+}
+
+.timeline-heading h4 {
+  color: #000351;
+}

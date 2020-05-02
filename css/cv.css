@@ -1,0 +1,245 @@
+/* CONTACTS */
+#contacts .button {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #82d9d9;
+  display: inline-block;
+  border: 1px solid #82d9d9;
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 3px;
+  transition: all 0.7s ease-in 0s;
+}
+
+#contacts .button:hover {
+  background: #82d9d9;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+/* ATOUTS */
+#Atouts {
+  background: #82d9d9;
+}
+
+#Atouts h5 {
+  color: #000351;
+}
+
+#Atouts .heading h2 {
+  color: #000351;
+  text-transform: uppercase;
+}
+
+#Atouts .progress {
+  height: 100%;
+  margin: 30px 20px;
+  backface-visibility: #9e9e9e;
+}
+
+#Atouts .progress-bar {
+  background: #f2f2f2;
+}
+
+/* DIPLOMES */
+
+#Diplomes {
+  background: #f2f2f2;
+  color: #000351;
+  text-align: center;
+}
+
+#Diplomes .heading h2 {
+  color: #82d9d9;
+}
+
+.Diplomes-block {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  background: #82d9d9;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.Diplomes-block h5 {
+  color: #000351;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.Diplomes-block .glyphicon {
+  font-size: 40px;
+  color: #f2f2f2;
+}
+
+.Diplomes-block h3 {
+  color: #000351;
+}
+
+.Diplomes-block h4 {
+  margin: 20px;
+  color: #000351;
+}
+
+.Diplomes-block p {
+  font-weight: bold;
+}
+
+.Diplomes-block .white-divider {
+  margin-bottom: 20px;
+}
+
+.col-container {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+}
+
+/* SKILLS DIPLOMES */
+#skillsDiplomes {
+  background: #82d9d9;
+}
+
+#skillsDiplomes h5 {
+  color: #000351;
+}
+
+#skillsDiplomes .heading h2 {
+  color: #000351;
+  text-transform: uppercase;
+}
+
+#skillsDiplomes .progress {
+  height: 100%;
+  margin: 30px 20px;
+  backface-visibility: #9e9e9e;
+}
+
+#skillsDiplomes .progress-bar {
+  background: #f2f2f2;
+}
+
+#skillsTaff .progress-bar {
+  background: #f2f2f2;
+}
+
+/* SKILLS TAFF */
+#skillsTaff {
+  background: #82d9d9;
+}
+
+#skillsTaff h5 {
+  color: #000351;
+}
+
+#skillsTaff .heading h2 {
+  color: #000351;
+  text-transform: uppercase;
+}
+
+#skillsTaff .progress {
+  height: 100%;
+  margin: 30px 20px;
+  backface-visibility: #9e9e9e;
+}
+
+/* SKILLS LANGUES */
+#skillsLang {
+  background: #82d9d9;
+}
+
+#skillsLang h5 {
+  color: #000351;
+}
+
+#skillsLang .heading h2 {
+  color: #000351;
+  text-transform: uppercase;
+}
+
+#skillsLang .progress {
+  height: 100%;
+  margin: 30px 20px;
+  backface-visibility: #9e9e9e;
+}
+
+#skillsLang .progress-bar {
+  background: #f2f2f2;
+}
+
+/* PASSE TEMPS */
+#passeTemps {
+  background: #f2f2f2;
+}
+
+#passeTemps .heading h2 {
+  color: #000351;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  color: #f2f2f2;
+}
+
+.carousel-indicators li {
+  border-color: #f2f2f2;
+}
+
+.carousel-indicators li:active {
+  background-color: #9e9e9e;
+}
+
+#myCarousel {
+  background-color: #82d9d9;
+}
+
+#myCarousel .item h3 {
+  color: #f2f2f2;
+}
+
+#myCarousel .item h4 {
+  color: #000351;
+}
+
+/* TIMELINE */
+
+.heading h2 {
+  color: #000351;
+  text-align: center;
+}
+
+.timeline:before {
+  background-color: #000351;
+}
+
+.timeline li .timeline-badge {
+  color: #82d9d9;
+}
+
+.timeline-panel {
+  background: #82d9d9;
+}
+
+.timeline-panel:after {
+  border-left: 14px solid #82d9d9;
+  border-right: 0 solid #82d9d9;
+}
+
+.timeline-heading h4 {
+  color: #000351;
+}
+
+.w-40vw {
+  width: 40vw;
+}
+
+.center-img {
+  display: block;
+  margin: auto;
+}

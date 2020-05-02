@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HENRICH Lucas Infographie</title>
+
+	<meta charset = "utf-8"/>
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+
+	<link defer rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<link defer href = 'http://fonts.googleapis.com/css?family=Lato' rel = 'stylesheet' type = 'text/css'>
+
+	<link rel = "stylesheet" defer href = 'css/general.css'>
+	<link rel = "stylesheet" defer href = 'css/mode.css'>
+
+</head>
+
+<body>
+	<!--   HEADER   -->
+	<nav class = "navbar navbar-default navbar-fixed-top">
+		<div class = "container">
+			<div class = "collapse navbar-collapse" id = myNavbar>
+				<ul class = "nav navbar-nav">
+					<li><a href = "./index.html" class = "button"> CV </a></li>
+					<li><a href = "./programmation.html" class = "button"> Programmation </a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id = "about" class = "container-fluid">
+		<div class = "col-xs-8 col-md-4 profile-picture">
+			<img src = "images/PP.jpg" alt = "Laurine" height = "450 %" class = "img-circle">
+		</div>
+		<div class = "heading">
+			<h1>Ici vous trouverez mon CV</h1>
+			<h3>Etudiant en Informatique Graphique et en Modélisation 3D</h3>
+			<a href = "files/CV_Lucas_Henrich.pdf" class = "button" onclick="window.open(this.href); return false;">Télécharger le CV</a>
+		</div>
+	</section>
+
+	<!--   SOFT INFOGRAPHIE   -->
+	<section id = "skillsMode">
+		<div class = "yellow-divider"></div>
+			<div class = "heading">
+				<h2>Infographie 2D et 3D</h2>
+			</div>
+		</div>
+		<div class = "container">
+			<div class = "row">
+				<div class  = "col-md-4">
+					<div class = "progress">
+						<div class = "progress-bar" role = "progressbar" style = "width: 100%">
+							<h5> Photoshop </h5>
+						</div>
+					</div>
+				
+					<div class = "progress">
+						<div class = "progress-bar" role = "progressbar" style = "width: 100%">
+							<h5> Illustrator </h5>
+						</div>
+					</div>
+				</div>
+				<div class  = "col-md-4">
+					<div class = "progress">
+						<div class = "progress-bar" role = "progressbar" style = "width: 100%">
+							<h5> 3DS Max </h5>
+						</div>
+					</div>
+				
+					<div class = "progress">
+						<div class = "progress-bar" role = "progressbar" style = "width: 100%">
+							<h5> Blender </h5>
+						</div>
+					</div>
+				</div>
+				<div class  = "col-md-4">
+					<div class = "progress">
+						<div class = "progress-bar" role = "progressbar" style = "width: 100%">
+							<h5> Maya </h5>
+						</div>
+					</div>
+				
+					<div class = "progress">
+						<div class = "progress-bar" role = "progressbar" style = "width: 100%">
+							<h5> Substance Painter </h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--   PROJETS MODE   -->
+	<section id="projetsMode" class="container-fluid">
+		<div class="containter">
+			<div class="white-divider"></div>
+			<div class="heading">
+				<h2>Projets de Modélisation 3D et infographie</h2>
+				<div class="container-reals">
+
+					<!--   ROBOT   -->
+					<div class="timeline-panel-container-photo">
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3>Création d'un robot</h3>
+								<h5>Compréhension des contraintes de la création d'un personnage, et du passage de la 2D à la 3D</h5>
+								<h4>Du dessin au modèle prêt à animer</h4>
+								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>2020</p>
+							</div>
+						</div>
+						<div id="robot" class="carousel slide text-center w-40vw" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#robot" data-slide-to="0" class="active"></li>
+								<li data-target="#robot" data-slide-to="1"></li>
+								<li data-target="#robot" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner  img-row">
+								<div class="item active">
+									<center><img class="center-img" src="images/Robot.png"></center>
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/Final_robot.jpg">
+								</div>
+								<div class="item">
+									<img class="center-img" src="images/Robot.jpg">
+								</div>
+							</div>
+							<a class="left carousel-control" href="#robot" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#robot" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+
+					<!--   VOITURE   -->
+					<div class="timeline-panel-container-photo">
+						<div id="voiture" class="carousel slide text-center w-40vw" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#voiture" data-slide-to="0" class="active"></li>
+								<li data-target="#voiture" data-slide-to="1"></li>
+								<li data-target="#voiture" data-slide-to="2"></li>
+								<li data-target="#voiture" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner  img-row">
+								<div class="item active">
+									<img class="center-img" src="images/Car_01.png">
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/Car_02.png">
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/Car_03.png">
+								</div>
+
+								<div class="item">
+									<video controls class="center-img" src="images/Anime_voiture.mp4">
+								</div>
+							</div>
+							<a class="left carousel-control" href="#voiture" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#voiture" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3>Reproduction d'une voiture</h3>
+								<h5>Visualiser la difficulté d’une reproduction et explorer des possibilitées d'animation</h5>
+								<h4>Reproduire et animer un modèle à partir de deux photos</h4>
+								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>2020</p>
+							</div>
+						</div>
+					</div>
+
+					<!--   PROJET EN 3H   -->
+					<div class="timeline-panel-container-photo">
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3>Détournement d'une théière dans un temps imparti</h3>
+								<h5>Tester notre capacité créative sur un laps de temps défini (3h) avec pour base la théière de 3DsMax</h5>
+								<h4>Basé sur Elder Kettle</h4>
+								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>2020</p>
+							</div>
+						</div>
+						<div id="teapot" class="carousel slide text-center w-40vw" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#teapot" data-slide-to="0" class="active"></li>
+								<li data-target="#teapot" data-slide-to="1"></li>
+								<li data-target="#teapot" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner  img-row">
+								<div class="item active">
+									<img class="center-img" src="images/teapot1.jpg">
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/teapot2.png">
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/teapot3.png">
+								</div>
+							</div>
+							<a class="left carousel-control" href="#teapot" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#teapot" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+
+					<!--   PTUT   -->
+					<div class="timeline-panel-container-photo">
+						<div id="ptut" class="carousel slide text-center w-40vw" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#ptut" data-slide-to="0" class="active"></li>
+								<li data-target="#ptut" data-slide-to="1"></li>
+								<li data-target="#ptut" data-slide-to="2"></li>
+								<li data-target="#ptut" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner  img-row">
+								<div class="item active">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/rnlCGw-0R8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/chateau.png">
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/Book2.jpg">
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/maison.png">
+								</div>
+							</div>
+							<a class="left carousel-control" href="#ptut" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#ptut" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3>Jeu Magic Journey</h3>
+								<h5>Réalisation et animation d'asset 3D et animation</h5>
+								<h4>Projet tutorer, Réalisation d'une application VR utilisant le LeapMotion</h4>
+								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>2020</p>
+							</div>
+						</div>
+					</div>
+
+					<!--   Escape Game   -->
+					<div class="timeline-panel-container-photo">
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3>Escape Game</h3>
+								<h5>Projet de groupe, apprendre à travailler efficacement entre deux équipes</h5>
+								<h4>Fairy escape</h4>
+								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>2019</p>
+							</div>
+						</div>
+						<div id="escape" class="carousel slide text-center w-40vw" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#escape" data-slide-to="0" class="active"></li>
+								<li data-target="#escape" data-slide-to="1"></li>
+								<li data-target="#escape" data-slide-to="2"></li>
+								<li data-target="#escape" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner  img-row">
+								<div class="item active">
+									<img class="center-img" src="images/Capture.PNG">
+								</div>
+
+								<div class="item ">
+									<img class="center-img" src="images/Capture1.PNG">
+								</div>
+
+								<div class="item ">
+									<img class="center-img" src="images/Capture2.PNG">
+								</div>
+
+								<div class="item ">
+									<img class="center-img" src="images/Capture3.PNG">
+								</div>
+							</div>
+							<a class="left carousel-control" href="#escape" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#escape" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+
+					<!--   CHAISE   -->
+					<div class="timeline-panel-container-photo">
+						<div id="chaise" class="carousel slide text-center w-40vw" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#chaise" data-slide-to="0" class="active"></li>
+								<li data-target="#chaise" data-slide-to="1"></li>
+								<li data-target="#chaise" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner  img-row">
+								<div class="item active">
+									<img class="center-img" src="images/Chaise1.png">
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/Chaise2.png">
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/Chaise3.png">
+								</div>
+							</div>
+							<a class="left carousel-control" href="#chaise" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#chaise" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3>Reproduction d'objet</h3>
+								<h5>Apprentissage de la reproduction d'objets avec précision</h5>
+								<h4>Chaise de cours</h4>
+								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>2019</p>
+							</div>
+						</div>
+					</div>
+
+					<!--   AFFICHE PTUT   -->
+					<div class="timeline-panel-container-photo">
+						<div class = "timeline-panel">
+							<div class="timeline-heading">
+								<h3>Création d'une <a href = "images/affiche.pdf" onclick="window.open(this.href); return false;">affiche</a> pour le projet des étudiants en fin d'année</h3>
+								<h5>Ils travaillaient sur une visite virtuel du cloître de la Chaise Dieu</h5>
+								<h4>Illustrer leur application de manière original</h4>
+								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>2019</p>
+							</div>
+						</div>
+						<div id="affiche" class="carousel slide text-center w-40vw" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#affiche" data-slide-to="0" class="active"></li>
+							</ol>
+							<div class="carousel-inner  img-row">
+								<div class="item active">
+									<img class="center-img" src="images/affiche.png">
+								</div>
+							</div>
+							<a class="left carousel-control" href="#affiche" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#affiche" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+
+					<!--   LOGO JOURNEY   -->
+					<div class="timeline-panel-container-photo">
+						<div id="logos" class="carousel slide text-center w-40vw" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#logos" data-slide-to="0" class="active"></li>
+								<li data-target="#logos" data-slide-to="1"></li>
+							</ol>
+							<div class="carousel-inner  img-row">
+								<div class="item active">
+									<img class="center-img" src="images/journey1.png">
+								</div>
+
+								<div class="item">
+									<img class="center-img" src="images/journey2.png">
+								</div>
+							</div>
+							<a class="left carousel-control" href="#logos" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#logos" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3>Création de logos pour un site vitrine</h3>
+								<h5>Deux logos basés sur l'univer du jeu Journey</h5>
+								<h4>Logo Journey</h4>
+								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>2019</p>
+							</div>
+						</div>
+					</div>
+				</div>
+	</section>
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity = "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin = "anonymous"></script>
+</body>
+</html>
